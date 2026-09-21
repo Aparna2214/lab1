@@ -11,7 +11,7 @@ def home():
     return jsonify(
         service="cloud-threat-modeling-demo",
         message="CI/CD security lab application",
-        environment=os.getenv("APP_ENV", "local"),
+        environment=os.getenv("APP_ENV", "local")
     )
 
 
